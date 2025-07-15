@@ -6,7 +6,7 @@
 
 ## Requirements
 
-To run this plugin, you need [Blender](https://www.blender.org/) and [BlenderBIM](https://blenderbim.org/) or [Rhino](https://www.rhino3d.com/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice).
+To run this plugin, you need [Blender](https://www.blender.org/) or [Rhino](https://www.rhino3d.com/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice).
 
 ## Installation
 
