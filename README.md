@@ -18,18 +18,19 @@ Download and install [ICEBridge.zip](https://github.com/max-tillberg/ICE-Bridge/
 
 This is still under development and will be delivered by request.
 
-### IDA ICE 5.0
+### IDA ICE 5
 
-ICEBridge 2.0 requires IDA ICE 5.0 or later, preferable IDA ICE 5.2. ICEBridge for IDA ICE 4.8 can be found at https://github.com/maxtillberg/ICEBridge
+ICEBridge 2 requires IDA ICE 5.0 or later, preferable IDA ICE 5.2. ICEBridge for IDA ICE 4.8 can be found at https://github.com/maxtillberg/ICEBridge
 
 ![This is an image](https://github.com/maxtillberg/ICEBridge/blob/main/ICEBridge.png)
 
 ## Features
   
-1. Send CAD objects to IDA ICE to be used as geometrical input, for example shading objects, building bodies, thermal zones, IDA ICE Ifc objects (walls, windows, doors, slabs and spaces), windows, openings and more.
-2. Read data from IDA ICE, for example zone result and field data through VTK.
+1. Send CAD objects to IDA ICE to be used as geometrical input, for example shading objects, building bodies, thermal zones, IDA ICE Ifc objects (walls, windows, doors, slabs and spaces), windows, openings and more. Objects can be stored as CAD objects or CAD geometries depending on import preferences IDA ICE. CAD geometries are separated by color (3DS) or optionally object (OBJ).
+2. Read data from IDA ICE, for example zone geometry, result and field data through VTK. Data can be exported to Speckle.
 3. Post process IDA ICE field data, for example mean and median values.
 4. Send bitmaps to IDA ICE, for example field data and text strings like zone name.
+5. Visualize occupants in 3D for CFD analysis.
 
 ## Limitations
   
@@ -37,14 +38,14 @@ This is a proof of concept, not an official product by EQUA Simulation AB. There
 
 ## Input
 
-ICEBridge works well with Bonsai and Speckle but any valid geometry will work.
+ICEBridge works well with Bonsai and Speckle but any valid geometry will work. VTK must by ASCII.
 
 ## News
 
+- 2025-07-21: Version 2.1 Zone geometry import, occupant 3D import, bug fixes.
 - 2025-07-15: Version 2.0 Support for IDA ICE 5.2, most features removed since they have been implemented in IDA ICE 5.2, fewer dependencis, bitmap export, VTK import.
   
 ## Notes
 
 - The 3D import can be quite slow and uses a lot of memory, therefore it can be a good idea to export/import larger buildings in parts, for example each floor.
-- External objects with similar properties are merged into one mesh to avoid too many objects.
 - Do not import too large shading external objects since this will affect shading calculations. Try to simplify external objects if possible.
