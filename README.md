@@ -42,7 +42,7 @@ ICEBridge works well with Bonsai and Speckle but any valid geometry will work. V
 
 ## News
 
-- 2025-07-21: Version 2.1 Zone geometry import, occupant 3D import, bug fixes.
+- 2025-07-21: Version 2.1 Zone geometry import, occupant 3D import, fast delete, faster VTK import, bug fixes.
 - 2025-07-15: Version 2.0 Support for IDA ICE 5.2, most features removed since they have been implemented in IDA ICE 5.2, fewer dependencis, bitmap export, VTK import.
   
 ## Notes
