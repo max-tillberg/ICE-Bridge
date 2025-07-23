@@ -27,10 +27,11 @@ ICEBridge 2 requires IDA ICE 5.0 or later, preferable IDA ICE 5.2. ICEBridge for
 ## Features
   
 1. Send CAD objects to IDA ICE to be used as geometrical input, for example shading objects, building bodies, thermal zones, IDA ICE Ifc objects (walls, windows, doors, slabs and spaces), windows, openings and more. Objects can be stored as CAD objects or CAD geometries depending on import preferences IDA ICE. CAD geometries are separated by color (3DS) or optionally object (OBJ).
-2. Read data from IDA ICE, for example zone geometry, result and field data through VTK. Data can be exported to Speckle.
+2. Read data from IDA ICE, for example zone geometry, zone result and field data through VTK. Data can be exported to Speckle.
 3. Post process IDA ICE field data, for example mean and median values.
 4. Send bitmaps to IDA ICE, for example field data and text strings like zone name.
 5. Visualize occupants in 3D for CFD analysis.
+6. Visualize sun path and sky dome with data if available
 
 ## Limitations
   
@@ -49,3 +50,4 @@ ICEBridge works well with Bonsai and Speckle but any valid geometry will work. V
 
 - The 3D import can be quite slow and uses a lot of memory, therefore it can be a good idea to export/import larger buildings in parts, for example each floor.
 - Do not import too large shading external objects since this will affect shading calculations. Try to simplify external objects if possible.
+- For best performance, use fixed output of 0.5 hours and use custom simulation in IDA ICE.
