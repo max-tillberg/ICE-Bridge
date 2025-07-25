@@ -2,11 +2,11 @@
 
 ![This is an image](https://github.com/maxtillberg/ICEBridge/blob/main/icebridge.png)
 
-[Blender](https://www.blender.org/) or [grasshopper](https://www.grasshopper3d.com/) plugin to send/get BIM-data like IFC to and from [IDA ICE](https://www.equa.se/en/ida-ice).
+[Blender](https://www.blender.org/) or [grasshopper](https://www.grasshopper3d.com/) add-on to send/get BIM-data like IFC to and from [IDA ICE](https://www.equa.se/en/ida-ice).
 
 ## Requirements
 
-To run this plugin, you need [Blender](https://www.blender.org/) or [Rhino](https://www.rhino3d.com/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and/or [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice).
+To run this add-on, you need [Blender](https://www.blender.org/) or [Rhino](https://www.rhino3d.com/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and/or [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice). To use the sun path chart you need Sun Position add-on for Blender.
 
 ## Installation
 
@@ -43,7 +43,7 @@ ICEBridge works well with Bonsai and Speckle but any valid geometry will work. V
 
 ## News
 
-- 2025-07-21: Version 2.2 Suntime chart, sky dome, sun path chart, new color scales for negative values, bug fixes.
+- 2025-07-25: Version 2.2 Suntime chart for seleted zones and zone varaibles, sky dome, sun path chart (requires Sun Position plugin), new color scales for negative values, bug fixes.
 - 2025-07-21: Version 2.1 Zone geometry import, occupant 3D import, fast delete, faster VTK import, bug fixes.
 - 2025-07-15: Version 2.0 Support for IDA ICE 5.2, most features removed since they have been implemented in IDA ICE 5.2, fewer dependencis, bitmap export, VTK import.
   
