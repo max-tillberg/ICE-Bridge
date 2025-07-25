@@ -50,6 +50,6 @@ ICEBridge works well with Bonsai and Speckle but any valid geometry will work. V
 ## Notes
 
 - Open IDA ICE with the intended model before running ICEBridge.
-- Use fixed output of 0.25 hours and use custom simulation in IDA ICE together with unpacked file format for accessing files for postprocessing.
+- Use custom simulation in IDA ICE together with unpacked saved file format for accessing files for postprocessing.
 - The 3D import can be quite slow and uses a lot of memory, therefore it can be a good idea to export/import larger buildings in parts, for example each floor.
 - Do not import too large shading external objects since this will affect shading calculations. Try to simplify external objects if possible.
