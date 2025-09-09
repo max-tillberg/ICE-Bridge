@@ -6,7 +6,7 @@
 
 ## Requirements
 
-To run this add-on, you need [Blender](https://www.blender.org/) or [Rhino](https://www.rhino3d.com/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and/or [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice). To use the sun path chart you need Sun Position add-on for Blender.
+To run this add-on, you need [Blender](https://www.blender.org/). I recommend installing [Speckle](https://speckle.systems/), [Bonsai](https://extensions.blender.org/add-ons/bonsai/) and/or [dotBIM](https://dotbim.net/) as well. It also helps if you have access to Revit and/or ArchiCAD, at least demo versions. To import the data you need [IDA ICE](https://www.equa.se/en/ida-ice). To use the sun path chart you need Sun Position add-on for Blender.
 
 ## Installation
 
@@ -14,15 +14,14 @@ To run this add-on, you need [Blender](https://www.blender.org/) or [Rhino](http
 
 Download and install [ICEBridge.zip](https://github.com/max-tillberg/ICE-Bridge/blob/main/ICEBridge.zip) as a normal Blender plugins. Instructions can be found [here](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html)
 
-### Rhino/grasshopper
-
-This is still under development and will be delivered by request.
-
 ### IDA ICE 5
 
 ICEBridge 2 requires IDA ICE 5.0 or later, preferable IDA ICE 5.2. ICEBridge for IDA ICE 4.8 can be found at https://github.com/maxtillberg/ICEBridge
 
 ![This is an image](https://github.com/maxtillberg/ICEBridge/blob/main/ICEBridge.png)
+
+## Usage
+https://youtu.be/TEQNK7KqRrI
 
 ## Features
   
